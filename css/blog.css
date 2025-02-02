@@ -1,0 +1,339 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   font-family: "Inter", serif; 
+  
+}
+
+body{
+    width:100%;
+}
+
+header{
+    display: flex;
+    justify-content:space-between;
+    padding: 1.5rem 3rem;
+    width: 85rem;
+    margin: auto;
+   
+    
+}
+
+.logo{
+    font-family: "Lobster", serif;
+    font-weight: 400;
+    font-size: 1.5rem; 
+}
+
+span{
+    color: #ff0000;
+}
+
+.header-navbar{
+    display: flex;
+    gap: 3.5rem;
+    font-weight: 500;
+    padding-top: 0.4rem;
+}
+
+a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 1rem;
+   font-family: 500;
+}
+
+.header-social{
+    display: flex;
+    gap: 2.5rem;
+    padding-top: 0.4rem;
+} 
+
+a:active{
+    color: #00000046;
+}
+
+.line  {
+    border-bottom: 1px solid #0000001A;
+}
+
+/*BLOG CONTENT*/
+.blogcontent-container{
+    width: 80rem;
+    margin: 4rem auto;
+}
+
+.blogcontent-header h1{
+ font-weight: 600;
+ font-size: 4rem;
+ line-height: 4.75rem;
+}
+
+.blogcontent-subhead{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    margin-top: 1.5rem;
+}
+.blogcontent-subhead1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    
+}
+.blogcontent-subhead1 img{
+    width: 40px;
+}
+.blogcontent-subhead1 p{
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.blogcontent-subhead2 {
+    border-left: 1px solid gainsboro;
+    font-weight: 500;
+    font-size: 0.875rem;
+    color: #00000099;
+    padding:0.625rem;
+}
+.blogcontent-header-para{
+    font-weight: 400;
+    font-size: 1rem;
+    color: #00000099;
+    line-height: 1.75rem;
+    text-align: center;
+    width: 80%;
+    margin:2rem auto;
+
+}
+
+.blogcontent-article-share{
+    display: grid;
+    grid-template-columns: 57.5rem 8.19rem;
+    justify-content: space-around;
+    margin-top: 3.125rem;  
+}
+
+.blogcontent-description{
+    width:52.44rem;
+    margin: 0 auto;
+}
+
+
+h3{
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 1.56rem;
+}
+
+.write-up{
+    font-size: 1rem;
+    color: #00000099;
+    line-height: 1.75rem;
+    margin-bottom: 3.125rem;
+
+}
+
+.first-two{
+    margin-bottom: 5rem;
+}
+
+.Lorem{
+    width: 57.5rem;
+    background-image: url(/assets/images/Rectangle\ 25.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 2.25rem;
+    line-height: 4rem;
+    padding: 1.25rem;  
+    margin-bottom: 3.125rem;
+
+}
+ .share{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.875rem;
+    font-size: 14px;
+    font-weight: 600;
+ }
+
+
+
+/* SUBSCRIBE SECTION*/
+
+.section-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/assets/images/subscribe-bg.svg);
+    background-repeat: no-repeat;
+    margin:0 auto;
+    width: 80rem;
+    height: 27.6rem;
+    background-size: cover;
+}
+ 
+
+
+.section-2 h1{
+    font-size:3rem;
+    font-weight: 600;
+    color: #000000;
+    padding: 1.875rem 0 0 0;
+    margin-top: 1.875rem;
+}
+
+.section-2 p{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #00000099;
+    margin-top: 1.25rem;
+    width: 40%;
+    line-height: 25px;
+    text-align: center;
+
+    
+}
+
+.subscribeinput-container {
+    position: relative;
+    width: 100%;
+    margin-top: 1.875rem;
+    max-width: 25rem;
+  }
+  
+  .subscribeinput-container input[type="text"] {
+    width: 100%;
+    padding: 1.625rem 1.125rem; 
+    border: none;
+    border-radius: 20px;
+    background-color: white;
+    font-size: 0.875rem;
+    color: #6e6e6e 40%;
+  }
+  
+  .subscribe-button {
+    position: absolute;
+    right: 0.625rem;
+    top: 50%; 
+    transform: translateY(-50%); 
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 0.75 1.375rem; 
+    font-size: 14px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .subscribe-button:hover {
+    background-color: #333;
+  }
+
+
+/* Recipe session */
+
+.section-3{
+    width: 80rem;
+   margin: 8rem auto;
+}
+
+.recipe-headline{
+    font-size: 2.25rem;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 4rem;
+}
+.recipe{
+    display: flex;
+    justify-content: center;
+    gap: 1.875rem;
+}
+
+.recipe-name{
+    width: 18.13rem;
+    line-height: 1.63rem;
+    font-size: 1.23rem;
+    font-weight: 600;
+    margin-top: 0.625rem;
+}
+
+.marge{
+  display: flex;
+  gap: 1.875rem;
+  color: #00000099;
+  margin-top: 1.25rem;
+}
+
+.time{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: 3px;
+}
+
+  
+/* FOOTER SECTIION */
+
+footer{
+    width: 80rem;
+    margin: 0 auto;
+}
+.section-4{ 
+     display: flex;
+     justify-content:space-between;
+     align-items: center;
+     padding-bottom:2.5rem;
+     border-bottom : 1px solid #0000001A;    
+}
+
+.text{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #00000099;
+    margin-top: 1.25rem;
+}
+
+.footer-navbar{
+    display: flex;
+    gap: 2.5rem;
+    font-weight: 500;
+    padding-top: 0.4rem;
+}
+
+.p-socials{
+    display: flex;
+    justify-content:flex-end;
+    align-items: baseline;
+    margin: 2.5rem 0;   
+    gap: 21.25rem; 
+}
+
+ .flowbase{
+   font-size: 1.125;
+}
+
+.footer-socials{
+    display: flex;
+    gap: 2.32rem;
+} 
+
+
+  @media(max-width:85em){
+      body{
+        width: 80rem;
+        margin: auto;
+       
+      }
+} 
