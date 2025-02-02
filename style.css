@@ -53,6 +53,10 @@ a{
     padding-top: 0.4rem;
 } 
 
+a:active{
+    color: #00000046;
+}
+
 .line  {
     border-bottom: 1px solid #0000001A;
 }
