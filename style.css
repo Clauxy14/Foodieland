@@ -108,7 +108,7 @@ font-size: 4rem;
  color: #000000;
  line-height: 77px;
  margin-top: 1.8rem;
- width:520px;
+ width:32.5rem;
 }
 .main-hero-para{
     font-size: 1rem;
@@ -181,7 +181,7 @@ font-size: 4rem;
 
 .categories-container{
    width: 80rem;
-   margin: 9rem auto;
+   margin: 7rem auto;
        
 }
 .categories-heading{
@@ -216,7 +216,7 @@ font-size: 4rem;
 /* SIMPLE RECIPE*/
 .simple-recipe{
     width: 80rem;
-    margin: 9rem auto;
+    margin: 7rem auto;
 }
 
 .simple-recipe-text h1{
@@ -225,6 +225,7 @@ font-size: 4rem;
     color: #000000;
      line-height: 58px;
      text-align: center;
+     margin-bottom: 0.8rem;
 }
 
 .simple-recipe-text p{
@@ -233,8 +234,9 @@ font-size: 4rem;
     color:#00000099;
     line-height: 28px;
     margin: 1,25rem auto;
-    width: 45%;
+    width: 44.13rem;
     text-align: center;
+    margin: 0 auto;
 }
 
 .simplerecipe-card{
@@ -246,11 +248,20 @@ font-size: 4rem;
    
 }
 
+
+
 .recipe-background{
     background-image: url(image/Rectangle\ 8.svg);
     width: 26.25rem;
     border-radius: 30px;
-    
+    position: relative;
+}
+
+.love{
+    border-radius: 24px;
+    position: absolute;
+    top: 15px;
+    right: 22px;
 }
 
 .simple-recipe-image{
@@ -284,10 +295,11 @@ font-size: 4rem;
 /* LEARN MORE*/
 .learn-more{
     width: 80rem;
-    margin: 9rem auto;
+    margin: 8rem auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 3rem;
 }
 
 .learnmore-text h1{
@@ -360,6 +372,11 @@ font-size: 4rem;
     justify-content: center;
     gap: 1.875rem;
     margin-bottom: 4rem;
+    
+}
+
+.recipe-love{
+    position: relative;
 }
 
 .recipe-name{
@@ -427,19 +444,18 @@ font-size: 4rem;
 .subscribeinput-container {
     position: relative;
     width: 100%;
-    margin-top: 1.875rem;
-    max-width: 45rem;
+    margin-top: 1.88rem;
+    max-width: 25rem;
   }
   
   .subscribeinput-container input[type="text"] {
     width: 100%;
-    padding: 1.625rem 1.125rem; 
+    padding: 1.63rem 1.23rem; 
     border: none;
     border-radius: 20px;
     background-color: white;
     font-size: 14px;
     color: #6e6e6e 40%;
-    
     box-sizing: border-box;
   }
   

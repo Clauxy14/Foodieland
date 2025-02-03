@@ -261,6 +261,17 @@ h3{
     gap: 1.875rem;
 }
 
+.recipe-love{
+    position: relative;
+}
+
+.love{
+    border-radius: 24px;
+    position: absolute;
+    top: 15px;
+    right: 22px;
+}
+
 .recipe-name{
     width: 18.13rem;
     line-height: 1.63rem;
