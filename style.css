@@ -65,7 +65,6 @@ a:active{
 /* HERO SECTION */
 
 .hero-section-container{
-    width: 1440px;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -81,9 +80,9 @@ a:active{
 }
 .herocontent-section1{
     background-color: #E7FAFE;
-    border-top-left-radius: 50px;
-    border-bottom-left-radius: 50px;
-    padding: 0px 40px;
+    border-top-left-radius: 3.125rem;
+    border-bottom-left-radius: 3.125rem;
+    padding: 0px 2.5rem;
 }
 .scroll-section{
     display: flex;
@@ -105,7 +104,7 @@ a:active{
 
 
 .main-hero-title{
-font-size: 64px;
+font-size: 4rem;
  font-weight: 600;
  color: #000000;
  line-height: 77px;
@@ -113,7 +112,7 @@ font-size: 64px;
  width: 70%;
 }
 .main-hero-para{
-    font-size: 16px;
+    font-size: 1rem;
  font-weight: 400;
  color: #000000;
  opacity: 60%;
@@ -133,13 +132,14 @@ font-size: 64px;
     align-items: center;
     background-color:#c1bebe80;
     width: 8.6rem;
-    height: 40px;
+    height: 2.5rem;
     border-radius: 30px;
 }
 .avartar-button-conatiner{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-top: 3.125rem;
     padding: 1rem
 }
 
@@ -173,7 +173,7 @@ font-size: 64px;
 
 .hand-image{
     position: absolute;
-    left: 57%;
+    left: 52%;
     top: 10%;
     transform: translateX(-50%);
 }
@@ -189,19 +189,19 @@ font-size: 64px;
     justify-content: space-between;
     align-items: center;
     gap: 10rem;
-    padding:0px 15px ;
+    padding:0px 0.94rem;
     margin-bottom: 4rem;
 }
 .section-3-heading  h1{
- font-size: 48px;
+ font-size: 3rem;
  font-weight: 600;
  color: #000000;
 }
 .section-3-heading  p{
     font-size: 16px;
  font-weight: 400;
- color:#000000;
- opacity: 60%;
+ color:#00000099;
+
  
   }
 .recipe{
@@ -254,7 +254,7 @@ font-size: 64px;
 }
 
 .category{
-    font-size: 48px;
+    font-size: 3rem;
     font-weight: 600;
     color: #000000;
 }
@@ -264,7 +264,7 @@ font-size: 64px;
     color: #000000;
     font-size: 14px;
     font-weight: 600;
-    padding: 15px 20px;
+    padding: 0.94rem 1.25rem;
     border: none;
     border-radius: 16px;
 }
@@ -276,7 +276,7 @@ font-size: 64px;
 }
 
 .simple-recipe-text h1{
-    font-size: 48px;
+    font-size: 3rem;
     font-weight: 600;
     color: #000000;
      line-height: 58px;
@@ -284,12 +284,11 @@ font-size: 64px;
 }
 
 .simple-recipe-text p{
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 400;
-    color:#000000;
-    opacity: 60%;
+    color:#00000099;
     line-height: 28px;
-    margin: 20px auto;
+    margin: 1,25rem auto;
     width: 45%;
     text-align: center;
 }
@@ -305,7 +304,7 @@ font-size: 64px;
 
 .recipe-background{
     background-image: url(/assets/images/Rectangle\ 8.svg);
-    width: 420px;
+    width: 26.25rem;
     border-radius: 30px;
     
 }
@@ -320,7 +319,7 @@ font-size: 64px;
     font-size: 1.23rem;
     font-weight: 600;
     margin-top: 0.625rem;
-    padding-left: 10px;
+    padding-left: 0.625rem;
 }
 
 .simplemarge{
@@ -328,7 +327,7 @@ font-size: 64px;
   gap: 1.875rem;
   color: #00000099;
   margin-top: 1.25rem;
-  padding: 0 0 10px 15px;
+  padding: 0 0 0.625rem 0.94rem;
 }
 
 .simpletime{
@@ -348,19 +347,18 @@ font-size: 64px;
 }
 
 .learnmore-text h1{
-    font-size: 48px;
+    font-size: 3rem;
  font-weight: 600;
  color: #000000;
   line-height: 58px;
 }
 
 .learnmore-text p{
-    font-size: 16px;
+ font-size: 1rem;
  font-weight: 400;
- color:#000000;
- opacity: 60%;
+ color:#00000099;
  line-height: 28px;
- margin-top: 20px;
+ margin-top: 1.25rem;
  
 }
 .learnmore-text button{
@@ -400,21 +398,19 @@ font-size: 64px;
 
 
 .section-2 h1{
-    font-size: 48px;
+    font-size: 3rem;
     font-weight: 600;
     color: #000000;
-    padding: 30px 0 0 0;
-    margin-top: -30px;
-    /* line-height: 38px; */
+    padding: 1.875rem 0 0 0;
+    margin-top: 1.875rem;
     
 }
 
 .section-2 p{
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 400;
-    color: #000000;
-    opacity: 60%;
-    margin-top: 20px;
+    color: #00000099;
+    margin-top: 1.25rem;
     width: 40%;
     line-height: 25px;
     text-align: center;
@@ -425,13 +421,13 @@ font-size: 64px;
 .subscribeinput-container {
     position: relative;
     width: 100%;
-    margin-top: 30px;
-    max-width: 400px;
+    margin-top: 1.875rem;
+    max-width: 45rem;
   }
   
   .subscribeinput-container input[type="text"] {
     width: 100%;
-    padding: 26px 18px; 
+    padding: 1.625rem 1.125rem; 
     border: none;
     border-radius: 20px;
     background-color: white;
@@ -449,7 +445,7 @@ font-size: 64px;
     background-color: black;
     color: white;
     border: none;
-    padding: 12px 22px; 
+    padding: 0.75rem 1.375rem; 
     font-size: 14px;
     border-radius: 10px;
     cursor: pointer;
@@ -469,7 +465,7 @@ footer{
      display: flex;
      justify-content:space-between;
      align-items: center;
-     padding-bottom:40px ;
+     padding-bottom:2.5rem;
      border-bottom : 1px solid #0000001A;    
 }
 
@@ -477,12 +473,12 @@ footer{
     font-size: 1rem;
     font-weight: 400;
     color: #00000099;
-    margin-top: 20px;
+    margin-top: 1.25rem;
 }
 
 .footer-navbar{
     display: flex;
-    gap: 40px;
+    gap: 2.5rem;
     font-weight: 500;
     padding-top: 0.4rem;
 }
@@ -492,16 +488,16 @@ footer{
     justify-content:flex-end;
     align-items: baseline;
     margin: 2.5rem 0;   
-    gap: 340px; 
+    gap: 21.25rem; 
 }
 
  .flowbase{
-   font-size: 18px;
+   font-size: 1.125rem;
 }
 
 .footer-socials{
     display: flex;
-    gap: 37px;
+    gap: 2.313rem;
 } 
 
 
