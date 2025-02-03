@@ -69,13 +69,12 @@ a:active{
     align-items: center;
     justify-content: space-evenly;
     gap: 5rem;
-    margin: 0 auto;
+    margin-top: 2.5rem;
     
 }
 .herocontent-conatiner{
     display: flex;
     position: relative;
-    margin-top: 1.8rem;
     
 }
 .herocontent-section1{
@@ -109,15 +108,14 @@ font-size: 4rem;
  color: #000000;
  line-height: 77px;
  margin-top: 1.8rem;
- width: 70%;
+ width:520px;
 }
 .main-hero-para{
     font-size: 1rem;
  font-weight: 400;
- color: #000000;
- opacity: 60%;
+ color: #00000099;
  line-height: 28px;
- width: 70%;
+ width:32.5rem;
  margin-top: 1.8rem;
 }
 .short-icons-container{
@@ -173,65 +171,11 @@ font-size: 4rem;
 
 .hand-image{
     position: absolute;
-    left: 52%;
+    left: 47%;
     top: 10%;
     transform: translateX(-50%);
 }
 
-/* Recipe session */
-
-.section-3{
-    width: 80rem;
-   margin: 9rem auto;
-}
-.section-3-heading {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 10rem;
-    padding:0px 0.94rem;
-    margin-bottom: 4rem;
-}
-.section-3-heading  h1{
- font-size: 3rem;
- font-weight: 600;
- color: #000000;
-}
-.section-3-heading  p{
-    font-size: 16px;
- font-weight: 400;
- color:#00000099;
-
- 
-  }
-.recipe{
-    display: flex;
-    justify-content: center;
-    gap: 1.875rem;
-    margin-bottom: 4rem;
-}
-
-.recipe-name{
-    width: 18.13rem;
-    line-height: 1.63rem;
-    font-size: 1.23rem;
-    font-weight: 600;
-    margin-top: 0.625rem;
-}
-
-.marge{
-  display: flex;
-  gap: 1.875rem;
-  color: #00000099;
-  margin-top: 1.25rem;
-}
-
-.time{
-     display: flex;
-     justify-content: center;
-     align-items: center;
-     gap: 3px;
-}
 
 /*CATEGORIES*/
 
@@ -303,7 +247,7 @@ font-size: 4rem;
 }
 
 .recipe-background{
-    background-image: url(/assets/images/Rectangle\ 8.svg);
+    background-image: url(image/Rectangle\ 8.svg);
     width: 26.25rem;
     border-radius: 30px;
     
@@ -379,6 +323,68 @@ font-size: 4rem;
  background-color: #000000cb;
 }
 
+/* instagram */
+.instagram{
+    width: 1280px;
+    margin: 0 auto;
+    
+}
+/* Tasty Recipe session */
+
+.section-3{
+    width: 80rem;
+   margin: 9rem auto;
+}
+.section-3-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10rem;
+    padding:0px 0.94rem;
+    margin-bottom: 4rem;
+}
+.section-3-heading  h1{
+ font-size: 3rem;
+ font-weight: 600;
+ color: #000000;
+}
+.section-3-heading  p{
+    font-size: 16px;
+ font-weight: 400;
+ color:#00000099;
+
+ 
+  }
+.recipe{
+    display: flex;
+    justify-content: center;
+    gap: 1.875rem;
+    margin-bottom: 4rem;
+}
+
+.recipe-name{
+    width: 18.13rem;
+    line-height: 1.63rem;
+    font-size: 1.23rem;
+    font-weight: 600;
+    margin-top: 0.625rem;
+}
+
+.marge{
+  display: flex;
+  gap: 1.875rem;
+  color: #00000099;
+  margin-top: 1.25rem;
+}
+
+.time{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: 3px;
+}
+
+
 /* SUBSCRIBE SECTION*/
 
 .section-2{
@@ -387,7 +393,7 @@ font-size: 4rem;
     justify-content: center;
     align-items: center;
     margin: auto ;
-    background-image: url(/assets/images/subscribe-bg.svg);
+    background-image: url(image/subscribe-bg.svg);
     background-repeat: no-repeat;
     margin:6.3rem auto;
     width: 80rem;
@@ -507,4 +513,7 @@ footer{
         margin: auto;
        
       }
+    .hero-section-container{
+        gap: 0;
+    }
 } 

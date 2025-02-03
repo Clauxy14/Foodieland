@@ -147,7 +147,7 @@ h3{
 
 .Lorem{
     width: 57.5rem;
-    background-image: url(/assets/images/Rectangle\ 25.svg);
+    background-image: url(image/Rectangle\ 25.svg);
     background-size: contain;
     background-repeat: no-repeat;
     font-weight: 500;
@@ -176,7 +176,7 @@ h3{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url(/assets/images/subscribe-bg.svg);
+    background-image: url(image/subscribe-bg.svg);
     background-repeat: no-repeat;
     margin:0 auto;
     width: 80rem;
